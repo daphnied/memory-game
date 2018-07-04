@@ -153,7 +153,7 @@ newGame.addEventListener("click", function() {
 
 // Flips card and shows on click
 deck.addEventListener("click", function(event) {
-  if (event.target.nodeName == "LI" && openCards.length < 2 && !event.target.classList.contains("match") && !event.target.classList.contains ("open")){
+  if (event.target.nodeName == "LI" && openCards.length < 2 && !event.target.classList.contains("match") && !event.target.classList.contains ("cards")) {
     //Event will not fire when - UL is clicked instead of LI - AND when 2 cards are already open - AND when
     //the target element already has class match
 
